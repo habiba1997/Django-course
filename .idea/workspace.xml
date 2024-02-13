@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c97f97f0-f7fa-4fc2-81e4-dee6d462d6c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/watchmate/docker-compose.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="c97f97f0-f7fa-4fc2-81e4-dee6d462d6c9" name="Changes" comment="Movie Model - Model Serializers - Serializer Serializer - Function Based Views- Class Based Views" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,10 +23,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2c4qH9wAQQFUdQ5zEpJoqHo38SZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,10 +36,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.manage.executor": "Run",
+    "Python.manage.py runserver.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/habiba.ahmed/Desktop/Django/watchmate",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/habiba.ahmed/Desktop/python/course",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,12 +52,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\habiba.ahmed\Desktop\Django\watchmate" />
-      <recent name="C:\Users\habiba.ahmed\Desktop\Django" />
+      <recent name="C:\Users\habiba.ahmed\Desktop\Django\watchmate\watchlist_app\api" />
+      <recent name="C:\Users\habiba.ahmed\Desktop\Django\watchmate\watchlist_app\api\serializers\class" />
+      <recent name="C:\Users\habiba.ahmed\Desktop\Django\watchmate\watchlist_app\api\serializers\api-view" />
+      <recent name="C:\Users\habiba.ahmed\Desktop\Django\watchmate\watchlist_app\api\serializers--api-view" />
+      <recent name="C:\Users\habiba.ahmed\Desktop\Django\watchmate\watchlist_app\api\basics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\habiba.ahmed\Desktop\Django\watchmate\watchlist_app\api\serializers" />
+      <recent name="C:\Users\habiba.ahmed\Desktop\Django\watchmate\watchlist_app\api" />
+      <recent name="C:\Users\habiba.ahmed\Desktop\Django\watchmate\watchlist_app\api\serializers\api-view" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Django" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,8 +79,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/watchmate/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -98,12 +104,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707381109896</updated>
-      <workItem from="1707381122691" duration="17545000" />
+      <workItem from="1707381122691" duration="19422000" />
+      <workItem from="1707738466298" duration="12306000" />
+      <workItem from="1707817373241" duration="66000" />
+      <workItem from="1707817455241" duration="2230000" />
     </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1707736408759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707736408759</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Movie Model - Model Serializers - Serializer Serializer - Function Based Views- Class Based Views">
+      <option name="closed" value="true" />
+      <created>1707819343579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707819343579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Movie Model - Model Serializers - Serializer Serializer - Function Based Views- Class Based Views">
+      <option name="closed" value="true" />
+      <created>1707819426528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707819426528</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init commit" />
+    <MESSAGE value="Movie Model - Model Serializers - Serializer Serializer - Function Based Views- Class Based Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movie Model - Model Serializers - Serializer Serializer - Function Based Views- Class Based Views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -115,5 +154,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Django$manage_py_runserver.coverage" NAME="manage Coverage Results" MODIFIED="1707815979381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Django$manage.coverage" NAME="manage Coverage Results" MODIFIED="1707818397310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

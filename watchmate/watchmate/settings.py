@@ -31,13 +31,15 @@ ALLOWED_HOSTS = []
 # that are installed and active in your project. Each application may provide models, views, templates, and
 # other components that contribute to the overall functionality of the project.
 INSTALLED_APPS = [
+    'rest_framework',
+    'movie_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'watchlist_app'
+
 ]
 # It helps Django to know which apps are available and should be considered when processing
 # various tasks like migrations, template rendering, etc.
@@ -52,6 +54,13 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ]
+}
 
 ROOT_URLCONF = 'watchmate.urls'
 
